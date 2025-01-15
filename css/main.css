@@ -1,0 +1,189 @@
+header {
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #011D53;
+}
+
+.left_menu {
+    display: flex;
+}
+
+.left_menu a {
+    color: #fff;
+    padding-right: 70px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.left_menu a:last-child {
+    padding-right: 0;
+}
+
+.right_menu {
+    display: flex;
+}
+
+.right_menu a {
+    width: 30px;
+    height: 30px;
+}
+
+.right_menu a img {
+    width: 100%;
+}
+
+.right_menu a:first-child {
+    margin-right: 50px;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* header--------------------------------------------------- */
+
+.section_1 {
+    height: 970px;
+    background-image: url(../img/sec1img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.sec1text {
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+}
+
+.sec1title {
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    padding-bottom: 50px;
+}
+
+.sec1btnWrap {
+    display: flex;
+}
+
+.sec1btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.sec1btn a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sec1btn1 {
+    background-color: #111;
+    margin-right: 10px;
+}
+
+.sec1btn1 a {
+    color: #fff;
+}
+
+/* section_1---------------------------------------------- */
+
+.section_2 {
+    padding: 0;
+}
+
+.sec2title {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sec2title p {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.sec2title h2 {
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    padding-bottom: 90px;
+}
+
+.section_2 img {
+    width: 100%;
+}
+
+/* section_2----------------------------------------------- */
+
+.section_3 h2 {
+    padding-top: 100px;
+    font-size: 80px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.trimWrap {
+    width: 100%;
+}
+
+.trimWrap input {
+    display: none;
+}
+
+.tabTitle>label {
+    display: block;
+    float: left;
+}
+
+.tab {
+    width: 300px;
+    height: 80px;
+    border: 1px solid #e8e8e8;
+    border-radius: 40px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+#prestige:checked ~ .tabTitle>.tab_1 {
+    border-color: #011D53;
+}
+
+#rLine:checked ~ .tabTitle>.tab_2 {
+    border-color: #011D53;
+}
+
+.prestigeCon {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.tabContent .tabConTitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: #11111180;
+}
+
+.tabContent .tabConCon {
+    font-size: 24px;
+    font-weight: 500;
+}
