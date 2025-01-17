@@ -65,7 +65,7 @@ header {
 
 .sec1title {
     font-size: 80px;
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: -2px;
     padding-bottom: 50px;
 }
@@ -117,7 +117,7 @@ header {
 
 .sec2title h2 {
     font-size: 80px;
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: -2px;
     padding-bottom: 90px;
 }
@@ -186,4 +186,252 @@ header {
 .tabContent .tabConCon {
     font-size: 24px;
     font-weight: 500;
+}
+
+.trimImg {
+    width: 100%;
+}
+
+.trimImg img {
+    width: 100%;
+}
+
+.trimColor {
+    width: 550px;
+    margin: auto;
+}
+
+.colorWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colorWrap img {
+    width: 12%;
+}
+
+.colorWrap img:first-child {
+    border: 3px solid #011D53;
+    border-radius: 50%;
+}
+
+.colorName {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.trimPrice {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+
+.trimPrice p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.trimPrice h4 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* .section_3----------------------------------- */
+
+.section_4, .section_5 {
+    background-color: #000;
+    color: #fff;
+    padding-top: 150px;
+    padding-bottom: 160px;
+}
+
+.sectitle h2 {
+    font-size: 80px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.sectitle p {
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 100px;
+    line-height: 50px;
+}
+
+.section_4>img, .section_5>img {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.swiperText {
+    padding-top: 30px;
+    text-align: start;
+}
+
+.swiperText>h5 {
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.swiperText>p {
+    font-size: 18px;
+    line-height: 36px;
+    padding-bottom: 70px;
+}
+
+.swiper-scrollbar {
+    background: #585858;
+}
+
+.swiper-scrollbar-drag {
+    background: #fff;
+}
+
+/* .section_4,.section_5-------------------------------------- */
+
+.section_6, .section_7 {
+    padding-top: 100px;
+}
+
+.section_6>h2, .section_7>h2 {
+    font-size: 80px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.gallery-top .swiper-slide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #585858;
+}
+
+.gallery-top .swiper-slide>img {
+    width: 50%;
+}
+
+.sec6swipertext, .sec7swipertext {
+    width: 50%;
+    text-align: start;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+/* .section_6, .section_7---------- thumbsnail swiper 왜 안됨 이거 어떻게 같이 움직여요? 왜 제 건 안돼요? */
+
+.section_8 {
+    background-color: #011D53;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+.sec8title h2 {
+    font-size: 80px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.sec8title p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 70px;
+}
+
+.sec8btn {
+    width: 140px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.sec8btn a {
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* .section_8---------------------------------- */
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerMenuTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #011D53;
+}
+
+.footermenu {
+    padding-top: 20px;
+}
+
+.footermenu a {
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #111;
+}
+
+.sns {
+    display: flex;
+    align-items: center;
+}
+
+.sns li {
+    padding-left: 10px;
+}
+
+.sns li:first-child {
+    padding: 0;
+}
+
+.sns a {
+    width: 40px;
+}
+
+.sns img {
+    width: 100%;
+}
+
+.quickMenu {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quickMenu a {
+    padding-right: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #111;
+}
+
+.copyright {
+    color: #011D53;
+    font-size: 15px;
+    font-weight: 300;
 }
